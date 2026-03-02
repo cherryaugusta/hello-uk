@@ -1,6 +1,6 @@
 # Hello UK App (Angular)
 
-This project was generated using the **Angular CLI (v21.1.2)** and developed as a beginner Angular application to demonstrate fundamental concepts including project structure, component modification, styling, routing setup, and production builds.
+A simple Angular application created using the Angular CLI to demonstrate basic project structure, component editing, styling, routing setup, and production building.
 
 The application displays a welcome message from the UK with centered layout styling and a customized browser title.
 
@@ -8,15 +8,15 @@ The application displays a welcome message from the UK with centered layout styl
 
 ## Project Objective
 
-This repository showcases practical understanding of:
+This project was built to practice and demonstrate:
 
-- Angular CLI project creation
-- Angular application structure
-- Component HTML and CSS customization
-- Basic UI styling
-- Development server usage
-- Production build process
-- Git and GitHub workflow
+- Creating an Angular application using Angular CLI
+- Understanding Angular project structure
+- Editing component HTML and CSS
+- Applying page styling and layout techniques
+- Running a development server
+- Creating a production build
+- Using Git and GitHub for version control
 
 ---
 
@@ -26,8 +26,8 @@ The application displays:
 
 - **Heading:** Hello from the UK!
 - **Message:**  
-  *"This is my Angular application, built in London."*
-- Centered layout design
+  *"This is My Name's Angular application, built in London."*
+- Centered page layout
 - Light blue background styling
 - Custom browser tab title
 
@@ -45,27 +45,32 @@ The application displays:
 
 ---
 
-## Development Server
+## Project Setup
 
-To start a local development server:
+### 1. Clone the Repository
 
 ```bash
-ng serve
+git clone https://github.com/cherryaugusta/hello-uk.git
+cd hello-uk
 ````
 
-Or automatically open the browser:
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Development Server
 
 ```bash
 ng serve -o
 ```
 
-Once running, open:
+The application will open automatically at:
 
 ```
 http://localhost:4200/
 ```
-
-The application automatically reloads whenever source files are modified.
 
 ---
 
@@ -89,99 +94,57 @@ src/
 
 ### HTML (`app.html`)
 
-* Removed default Angular template
+* Removed default Angular template content
 * Added container layout
-* Added welcome heading and paragraph
+* Added welcome heading and descriptive paragraph
 
 ### CSS (`app.css`)
 
-* Background colour customization
-* Centered layout using Flexbox
-* Styled heading typography
+* Changed page background colour
+* Centered content vertically and horizontally
+* Styled heading font size and colour
 
 ### Title Update (`index.html`)
 
 ```
-Hello UK | My App
+Hello UK | My Name's App
 ```
 
 ---
 
-## Code Scaffolding
+## Development Commands
 
-Angular CLI provides powerful scaffolding tools.
-
-Generate a new component:
+### Start Development Server
 
 ```bash
-ng generate component component-name
+ng serve
 ```
 
-View all available generators:
+### Start and Open Browser Automatically
 
 ```bash
-ng generate --help
+ng serve -o
 ```
 
-Examples include:
-
-* components
-* directives
-* pipes
-* services
-
----
-
-## Building the Application
-
-Create a production build:
+### Create Production Build
 
 ```bash
 ng build --configuration production
 ```
 
-Build artifacts are generated inside:
+Production-ready files are generated inside:
 
 ```
 dist/
 ```
 
-The production build includes optimization for performance and speed.
-
 ---
 
-## Running Unit Tests
-
-Execute unit tests using the Vitest test runner:
-
-```bash
-ng test
-```
-
----
-
-## End-to-End Testing
-
-Run e2e tests:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not include an e2e framework by default; one can be added as needed.
-
----
-
-## Git Workflow
-
-The following Git commands were used to track and upload project changes to GitHub.
-
-### Initial Project Commit
+## Initial Project Commit
 
 ```bash
 git add .
 git commit -m "Create hello-uk Angular app and add welcome content"
-git push origin main
 ```
 
 ---
