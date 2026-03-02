@@ -1,59 +1,220 @@
-# HelloUk
+# Hello UK App (Angular)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2.
+This project was generated using the **Angular CLI (v21.1.2)** and developed as a beginner Angular application to demonstrate fundamental concepts including project structure, component modification, styling, routing setup, and production builds.
 
-## Development server
+The application displays a welcome message from the UK with centered layout styling and a customized browser title.
 
-To start a local development server, run:
+---
+
+## Project Objective
+
+This repository showcases practical understanding of:
+
+- Angular CLI project creation
+- Angular application structure
+- Component HTML and CSS customization
+- Basic UI styling
+- Development server usage
+- Production build process
+- Git and GitHub workflow
+
+---
+
+## Application Overview
+
+The application displays:
+
+- **Heading:** Hello from the UK!
+- **Message:**  
+  *"This is my Angular application, built in London."*
+- Centered layout design
+- Light blue background styling
+- Custom browser tab title
+
+---
+
+## Technologies Used
+
+- Angular
+- TypeScript
+- HTML5
+- CSS3
+- Angular CLI
+- Node.js
+- Git & GitHub
+
+---
+
+## Development Server
+
+To start a local development server:
 
 ```bash
 ng serve
+````
+
+Or automatically open the browser:
+
+```bash
+ng serve -o
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Once running, open:
 
-## Code scaffolding
+```
+http://localhost:4200/
+```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+The application automatically reloads whenever source files are modified.
+
+---
+
+## Project Structure (Key Files)
+
+```
+src/
+│
+├── app/
+│   ├── app.html        # Main component template
+│   ├── app.css         # Component styling
+│   └── app.ts          # Component logic
+│
+├── index.html          # Application entry HTML
+└── styles.css          # Global styles
+```
+
+---
+
+## Implemented Changes
+
+### HTML (`app.html`)
+
+* Removed default Angular template
+* Added container layout
+* Added welcome heading and paragraph
+
+### CSS (`app.css`)
+
+* Background colour customization
+* Centered layout using Flexbox
+* Styled heading typography
+
+### Title Update (`index.html`)
+
+```
+Hello UK | My App
+```
+
+---
+
+## Code Scaffolding
+
+Angular CLI provides powerful scaffolding tools.
+
+Generate a new component:
 
 ```bash
 ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+View all available generators:
 
 ```bash
 ng generate --help
 ```
 
-## Building
+Examples include:
 
-To build the project run:
+* components
+* directives
+* pipes
+* services
+
+---
+
+## Building the Application
+
+Create a production build:
 
 ```bash
-ng build
+ng build --configuration production
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Build artifacts are generated inside:
 
-## Running unit tests
+```
+dist/
+```
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+The production build includes optimization for performance and speed.
+
+---
+
+## Running Unit Tests
+
+Execute unit tests using the Vitest test runner:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## End-to-End Testing
+
+Run e2e tests:
 
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Angular CLI does not include an e2e framework by default; one can be added as needed.
+
+---
+
+## Git Workflow
+
+The following Git commands were used to track and upload project changes to GitHub.
+
+### Initial Project Commit
+
+```bash
+git add .
+git commit -m "Create hello-uk Angular app and add welcome content"
+git push origin main
+Updating the README
+
+After modifying the README file:
+
+git add README.md
+git commit -m "Update README with Angular CLI documentation and disclaimer"
+git push
+
+---
+
+## Learning Outcomes
+
+* Understanding Angular CLI workflow
+* Editing Angular components
+* Applying CSS styling in Angular applications
+* Managing version control using Git
+* Creating optimized production builds
+
+---
 
 ## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+* Angular CLI Documentation:
+  [https://angular.dev/tools/cli](https://angular.dev/tools/cli)
+
+* Angular CLI GitHub Repository:
+  [https://github.com/angular/angular-cli](https://github.com/angular/angular-cli)
+
+---
+
+## Disclaimer
+
+This repository is created **strictly for educational purposes and skills demonstration only**.
+It serves as a learning exercise and portfolio showcase. The application is not intended for commercial use or production deployment.
+
+---
