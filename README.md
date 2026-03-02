@@ -182,13 +182,7 @@ The following Git commands were used to track and upload project changes to GitH
 git add .
 git commit -m "Create hello-uk Angular app and add welcome content"
 git push origin main
-Updating the README
-
-After modifying the README file:
-
-git add README.md
-git commit -m "Update README with Angular CLI documentation and disclaimer"
-git push
+```
 
 ---
 
@@ -199,16 +193,6 @@ git push
 * Applying CSS styling in Angular applications
 * Managing version control using Git
 * Creating optimized production builds
-
----
-
-## Additional Resources
-
-* Angular CLI Documentation:
-  [https://angular.dev/tools/cli](https://angular.dev/tools/cli)
-
-* Angular CLI GitHub Repository:
-  [https://github.com/angular/angular-cli](https://github.com/angular/angular-cli)
 
 ---
 
