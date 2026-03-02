@@ -26,7 +26,7 @@ The application displays:
 
 - **Heading:** Hello from the UK!
 - **Message:**  
-  *"This is My Name's Angular application, built in London."*
+  *"This is my Angular application, built in London."*
 - Centered page layout
 - Light blue background styling
 - Custom browser tab title
@@ -107,7 +107,7 @@ src/
 ### Title Update (`index.html`)
 
 ```
-Hello UK | My Name's App
+Hello UK | My App
 ```
 
 ---
